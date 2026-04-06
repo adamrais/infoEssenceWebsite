@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adamrais.github.io/infoessencewebsite/sitemap.xml
+Sitemap: https://adamrais.github.io/infoEssenceWebsite/sitemap.xml
