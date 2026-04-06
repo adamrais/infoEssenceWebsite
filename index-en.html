@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>infoEssence — Prix d'essence au Québec</title>
-  <meta name="description" content="Trouvez le meilleur prix d'essence près de vous, partout au Québec. Données officielles de la Régie de l'énergie, mises à jour toutes les 10 minutes." />
-  <link rel="canonical" href="https://adamrais.github.io/infoEssenceWebsite/" />
+  <title>infoEssence — Gas Prices in Quebec</title>
+  <meta name="description" content="Find the best gas price near you, anywhere in Quebec. Official data from the Régie de l'énergie, updated every 10 minutes." />
+  <link rel="canonical" href="https://adamrais.github.io/infoEssenceWebsite/index-en.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="infoEssence" />
-  <meta property="og:url" content="https://adamrais.github.io/infoEssenceWebsite/" />
-  <meta property="og:title" content="infoEssence — Prix d'essence au Québec" />
-  <meta property="og:description" content="Trouvez le meilleur prix d'essence près de vous, partout au Québec. Données officielles de la Régie de l'énergie, mises à jour toutes les 10 minutes." />
+  <meta property="og:url" content="https://adamrais.github.io/infoEssenceWebsite/index-en.html" />
+  <meta property="og:title" content="infoEssence — Gas Prices in Quebec" />
+  <meta property="og:description" content="Find the best gas price near you, anywhere in Quebec. Official data from the Régie de l'énergie, updated every 10 minutes." />
   <meta property="og:image" content="https://adamrais.github.io/infoEssenceWebsite/icon.png" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="infoEssence — Prix d'essence au Québec" />
-  <meta name="twitter:description" content="Trouvez le meilleur prix d'essence près de vous, partout au Québec. Données officielles, mises à jour toutes les 10 minutes." />
+  <meta name="twitter:title" content="infoEssence — Gas Prices in Quebec" />
+  <meta name="twitter:description" content="Find the best gas price near you, anywhere in Quebec. Official data updated every 10 minutes." />
   <meta name="twitter:image" content="https://adamrais.github.io/infoEssenceWebsite/icon.png" />
   <link rel="icon" href="icon.png" />
   <script type="application/ld+json">
@@ -22,8 +22,8 @@
     "@context": "https://schema.org",
     "@type": "MobileApplication",
     "name": "infoEssence",
-    "description": "Trouvez le meilleur prix d'essence près de vous, partout au Québec. Données officielles de la Régie de l'énergie, mises à jour toutes les 10 minutes.",
-    "url": "https://adamrais.github.io/infoEssenceWebsite/",
+    "description": "Find the best gas price near you, anywhere in Quebec. Official data from the Régie de l'énergie, updated every 10 minutes.",
+    "url": "https://adamrais.github.io/infoEssenceWebsite/index-en.html",
     "image": "https://adamrais.github.io/infoEssenceWebsite/icon.png",
     "applicationCategory": "TravelApplication",
     "operatingSystem": "iOS",
@@ -68,7 +68,6 @@
       overflow-x: hidden;
     }
 
-    /* Background ambience */
     body::before {
       content: '';
       position: fixed; inset: 0;
@@ -180,7 +179,6 @@
     }
     .hero-note { font-size: .78rem; color: var(--w40); }
 
-    /* App icon */
     .hero-visual { flex-shrink: 0; animation: fadeUp .8s .18s ease both; }
     .icon-wrap {
       position: relative; width: 240px; height: 240px;
@@ -301,13 +299,11 @@
     .footer-links a:hover { color: var(--w70); }
     .footer-copy { font-size: .78rem; color: var(--w40); }
 
-    /* ── ANIMATIONS ───────────────────────────────────── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(22px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* ── RESPONSIVE ───────────────────────────────────── */
     @media (max-width: 800px) {
       nav { padding: 14px 20px; }
       .nav-links li:not(:last-child) { display: none; }
@@ -330,14 +326,14 @@
 
   <!-- NAV -->
   <nav>
-    <a href="/" class="nav-logo">
+    <a href="index-en.html" class="nav-logo">
       <img src="icon.png" alt="infoEssence" />
       <span class="nav-logo-text">info<em>Essence</em></span>
     </a>
     <ul class="nav-links">
-      <li><a href="#features">Fonctionnalités</a></li>
-      <li><a href="privacy.html">Confidentialité</a></li>
-      <li><a href="index-en.html">EN</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="privacy-en.html">Privacy</a></li>
+      <li><a href="index.html">FR</a></li>
       <li>
         <a href="https://apps.apple.com/ca/app/infoessence/id6761513458?l=fr-CA" class="btn-pill">
           <svg width="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -352,19 +348,19 @@
     <div class="hero-text">
       <div class="eyebrow">
         <span class="eyebrow-dot"></span>
-        Québec · iOS
+        Quebec · iOS
       </div>
-      <h1>Le meilleur prix<br /><em>d'essence,</em><br />près de chez vous.</h1>
+      <h1>The best <em>gas price,</em><br />near you.</h1>
       <p class="hero-sub">
-        Comparez les prix d'essence en temps réel dans tout le Québec.
-        Données officielles de la Régie de l'énergie, mises à jour toutes les 10 minutes.
+        Compare real-time gas prices across Quebec.
+        Official data from the Régie de l'énergie du Québec, updated every 10 minutes.
       </p>
       <div class="hero-actions">
         <a href="https://apps.apple.com/ca/app/infoessence/id6761513458?l=fr-CA" class="btn-cta">
           <svg width="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-          Télécharger sur l'App Store
+          Download on the App Store
         </a>
-        <span class="hero-note">Gratuit · iOS 18+</span>
+        <span class="hero-note">Free · iOS 18+</span>
       </div>
     </div>
     <div class="hero-visual">
@@ -376,23 +372,23 @@
 
   <!-- FEATURES -->
   <section class="features" id="features">
-    <p class="section-label">Fonctionnalités</p>
-    <h2 class="section-title">Tout ce dont vous avez besoin.</h2>
+    <p class="section-label">Features</p>
+    <h2 class="section-title">Everything you need.</h2>
     <div class="grid">
       <div class="card">
         <span class="card-icon">🗺️</span>
-        <h3 class="card-title">Carte interactive</h3>
-        <p class="card-desc">Visualisez toutes les stations d'essence autour de vous sur une carte intuitive. Repérez les meilleurs prix en un coup d'œil.</p>
+        <h3 class="card-title">Interactive map</h3>
+        <p class="card-desc">See every gas station around you on an intuitive map. Spot the best prices at a glance.</p>
       </div>
       <div class="card">
         <span class="card-icon">📍</span>
-        <h3 class="card-title">Stations à proximité</h3>
-        <p class="card-desc">Filtrez les stations dans un rayon de 10 km autour de votre position. Trouvez la station la plus proche et la moins chère.</p>
+        <h3 class="card-title">Nearby stations</h3>
+        <p class="card-desc">Filter stations within a 10 km radius of your location. Find the closest and cheapest option.</p>
       </div>
       <div class="card">
         <span class="card-icon">⚡</span>
-        <h3 class="card-title">Temps réel</h3>
-        <p class="card-desc">Prix actualisés toutes les 10 minutes depuis les données officielles de la Régie de l'énergie du Québec. Toujours à jour.</p>
+        <h3 class="card-title">Real-time</h3>
+        <p class="card-desc">Prices updated every 10 minutes from the official Régie de l'énergie du Québec data feed. Always current.</p>
       </div>
     </div>
   </section>
@@ -401,11 +397,11 @@
   <div class="data-strip">
     <div class="data-card">
       <div>
-        <h3>Données officielles et fiables</h3>
-        <p>infoEssence utilise exclusivement le flux de données de la Régie de l'énergie du Québec — l'organisme officiel de réglementation des prix du carburant dans la province.</p>
+        <h3>Official, reliable data</h3>
+        <p>infoEssence exclusively uses the data feed from the Régie de l'énergie du Québec — the official government body that regulates fuel prices in the province.</p>
       </div>
       <div class="data-badge">
-        <span class="lbl">Mise à jour</span>
+        <span class="lbl">Updated</span>
         <span class="val">/ 10 min</span>
       </div>
     </div>
@@ -415,10 +411,10 @@
   <footer>
     <span class="footer-brand">info<em>Essence</em></span>
     <ul class="footer-links">
-      <li><a href="privacy.html">Politique de confidentialité</a></li>
+      <li><a href="privacy-en.html">Privacy Policy</a></li>
       <li><a href="https://apps.apple.com/ca/app/infoessence/id6761513458?l=fr-CA">App Store</a></li>
     </ul>
-    <span class="footer-copy">© 2025 Adam Rais. Tous droits réservés.</span>
+    <span class="footer-copy">© 2025 Adam Rais. All rights reserved.</span>
   </footer>
 
 </body>
